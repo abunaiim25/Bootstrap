@@ -1,0 +1,87 @@
+
+
+.navbar-nav{
+    position: absolute;
+    right: 0;
+	padding-right: 5rem;
+  
+}
+.navbar{
+	padding: 20px 0;
+}
+
+.navbar-brand{
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 2em;
+	color: #262626;
+}
+.nav-item{
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link{
+	background: #262626;
+	color: #fff ;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link{
+	color: #262626;
+	padding: 5px 15px;
+}
+
+
+.navbar-light .navbar-toggler{
+	border: none;
+	color: #fff;
+	border: 2px solid #7f7f7f;
+}
+
+
+
+
+
+
+.banner{
+	position: relative;
+	background: url(images/img1.jpg);
+	min-height: 90vh;
+	background-size: cover;
+	background-position: center;
+	padding: 250px 0 200px;
+}
+
+.banner h2{
+	margin: 0;
+	padding: 0;
+	font-size: 2.8rem;
+	font-weight: 1000;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.banner p{
+	margin: 1em 0 0;
+	padding: 0;
+	font-size: 1.2rem;
+	color: white;
+	line-height: 1.5em;
+}
+
+.btnD1{
+	display: inline-block;
+	margin: 1rem 0 0;
+	background: #ff2670;
+	color: white;
+	padding:10px 20px ;
+	text-transform: uppercase;
+	border: none;
+	font-weight: 800;
+	text-decoration: none;
+	
+}
+.btnD1:hover{
+	color: black;
+}
